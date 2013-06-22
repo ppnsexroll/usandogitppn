@@ -8,6 +8,7 @@ class teste
 		echo 'oi';
 		$this->resposta();
 		$this->cafe();
+		$this->simCafe();
 	}
 
 	public function resposta()
@@ -18,5 +19,10 @@ class teste
 	public function cafe()
 	{
 		echo 'Gostaria de entrar para tomar uma chicara de café ?';
+	}
+
+	public function simCafe()
+	{
+		echo 'Sim gostaria demasiadamente';
 	}
 }
