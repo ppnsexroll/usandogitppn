@@ -1,1 +1,10 @@
-Mandando um bloco de texto
+<?php
+
+class teste
+{
+
+	public function __construct()
+	{
+		echo 'oi';
+	}
+}
