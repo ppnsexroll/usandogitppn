@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 class teste
 {
@@ -7,10 +7,16 @@ class teste
 	{
 		echo 'oi';
 		$this->resposta();
+		$this->cafe();
 	}
 
 	public function resposta()
 	{
 		echo 'Oi pra você também';
+	}
+	
+	public function cafe()
+	{
+		echo 'Gostaria de entrar para tomar uma chicara de café ?';
 	}
 }
