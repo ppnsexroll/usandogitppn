@@ -6,5 +6,11 @@ class teste
 	public function __construct()
 	{
 		echo 'oi';
+		$this->resposta();
+	}
+
+	public function resposta()
+	{
+		echo 'Oi pra você também';
 	}
 }
