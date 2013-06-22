@@ -13,16 +13,4 @@ class teste
 
 	public function resposta()
 	{
-		echo 'Oi pra você também';
-	}
-	
-	public function cafe()
-	{
-		echo 'Gostaria de entrar para tomar uma chicara de café ?';
-	}
-
-	public function simCafe()
-	{
-		echo 'Sim gostaria demasiadamente';
-	}
-}
+		echo 'Leocir vc e um fofo';
